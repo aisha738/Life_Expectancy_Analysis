@@ -18,10 +18,6 @@ DIM_SEX → Gender category (Male, Female, Both)<br>
 AMOUNT_N → Main value (life expectancy in years)<br>
 AMOUNT_NL → Lower estimate (minimum possible value)<br>
 AMOUNT_NU → Upper estimate (maximum possible value)<br>
-UNIT_MEASURE → Unit of measurement (years)<br>
-OBS_STATUS → Data status (e.g., estimated, actual, etc.)<br>
-DATA_SOURCE → Source of the data<br>
-COMMENT → Extra notes or explanations<br>
 
 
 
