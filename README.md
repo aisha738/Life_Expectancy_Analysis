@@ -5,6 +5,25 @@ This project is a submission for **Stage 0 of the HNG Data Analytics Internship 
 
 ## Dataset Description
 The dataset tracks "Life Expectancy at Birth," representing the average number of years a newborn is expected to live. It covers multiple countries and geographic regions from 2000 to 2021.
+### Columns
+IND_ID → Indicator ID (unique code for life expectancy)<br>
+IND_NAME → Name of the indicator (e.g., life expectancy at birth)<br>
+GEO_ID → Code for the country/region<br>
+GEO_NAME_SHORT → Short name of the country/region<br>
+DIM_TIME → Year the data was recorded<br>
+DIM_GEO_CODE_M49  → Numeric country/region code based on the United Nations M49 standard.<br>
+DIM_GEO_CODE_TYPE → Type of geographic coding system<br>
+GEO_NAME_SHORT → Short name of the country/region<br>
+DIM_SEX → Gender category (Male, Female, Both)<br>
+AMOUNT_N → Main value (life expectancy in years)<br>
+AMOUNT_NL → Lower estimate (minimum possible value)<br>
+AMOUNT_NU → Upper estimate (maximum possible value)<br>
+UNIT_MEASURE → Unit of measurement (years)<br>
+OBS_STATUS → Data status (e.g., estimated, actual, etc.)<br>
+DATA_SOURCE → Source of the data<br>
+COMMENT → Extra notes or explanations<br>
+
+
 
 ## Data Cleaning & Transformation
 The raw dataset was refined to ensure clarity and professional reporting:
